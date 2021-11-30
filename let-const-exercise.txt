@@ -1,0 +1,14 @@
+ES2015 Global Constants
+
+const PI = 3.14;
+
+---------------
+Quiz
+
+- A variable declared by var can be redeclared. With let, we cannot redeclare a variable. Scope of var is a function block. Scope of let is any block of code.
+
+- A variable declared by var can be redeclared and reassigned. We cannot do either of these with const. Scope of var is a function block. Scope of const is any block of code.
+
+- A variable declared by let can be reassigned. We cannot reassign a variable declared by const.
+
+- When a variable is declared regardless of where in the program, the declaration moves to the top and acts as a placeholder in the memory until the variable is assigned a value. This is known as hoisting.
